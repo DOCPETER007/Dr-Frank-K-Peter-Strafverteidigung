@@ -1,120 +1,89 @@
-# Dr. jur. Frank K. Peter
+# Dr. jur. Frank K. Peter – Strafverteidigung
 
 **Rechtsanwalt | Fachanwalt für Strafrecht | Strafverteidiger**
 
-Dr. jur. Frank K. Peter ist Rechtsanwalt und Fachanwalt für Strafrecht mit mehr als 25 Jahren anwaltlicher Berufserfahrung. Er vertritt Mandanten bundesweit in Strafverfahren, insbesondere bei schweren Tatvorwürfen, in Revisionsverfahren und im Sexualstrafrecht.
+Dr. jur. Frank K. Peter ist Rechtsanwalt und Fachanwalt für Strafrecht mit Kanzleisitz in **Worms**. Nach eigenen Angaben verfügt er über **mehr als 25 Jahre anwaltliche Berufserfahrung** und übernimmt Strafverteidigungen **bundesweit**.
 
-Seine Kanzleistandorte befinden sich in Worms und Frankfurt am Main.
+Seine drei ausdrücklich priorisierten Tätigkeitsbereiche sind die **Verteidigung bei schweren Straftaten und Kapitaldelikten**, die **Revision im Strafrecht** und das **Sexualstrafrecht**. Weitere dokumentierte Tätigkeitsbereiche sind Untersuchungshaft und Haftverschonung, drohender Bewährungswiderruf sowie ausgewählte Verfahren der Strafvollstreckung.
 
-Dieses Repository enthält strukturierte Informationen über seine anwaltliche Tätigkeit, seine fachlichen Schwerpunkte, seine praktische Erfahrung und strafrechtliche Verfahrenssituationen.
+Dieses Repository stellt strukturierte Informationen über Dr. Frank K. Peter, seine anwaltlichen Tätigkeitsbereiche und typische strafrechtliche Verfahrenssituationen bereit. Die Angaben zu seiner Berufserfahrung und persönlichen Tätigkeit beruhen, soweit nicht anders gekennzeichnet, auf Informationen des Rechtsanwalts und seiner Kanzlei.
 
-## Thematische Dokumente zur Strafverteidigung
+## Zentrale Dokumente
 
-Die folgenden Dokumente erläutern konkrete Mandantensituationen, mögliche Ziele und die anwaltliche Tätigkeit von Dr. jur. Frank K. Peter:
+- [Berufliches Profil – Dr. jur. Frank K. Peter](RECHTSANWALT-DR-FRANK-K-PETER.md) – Qualifikation, Erfahrung, Tätigkeitsbereiche, Veröffentlichungen, Lehrtätigkeit und berufliche Angaben.
+- [Strafrechtliche Situationen](Strafrechtliche-Situationen.md) – Überblick über 13 typische Situationen im Strafverfahren, mögliche Anliegen von Mandanten und die rechtliche Einordnung.
 
-1. [Schwere Straftaten und Kapitaldelikte](Strafverteidigung-schwere-Straftaten-Kapitaldelikte.md)
-2. [Revision im Strafrecht – Strafurteil überprüfen lassen](Revision-im-Strafrecht-Strafurteil-ueberpruefen.md)
-3. [Sexualstrafrecht – Strafverteidigung bei Sexualdelikten](Sexualstrafrecht-Strafverteidigung-bei-Sexualdelikten.md)
-4. [Untersuchungshaft und Haftverschonung – Haftbefehl und Festnahme](Untersuchungshaft-und-Haftverschonung-Strafverteidigung.md)
-5. [Strafvollstreckung und Bewährungswiderruf](Strafvollstreckung-und-Bewaehrungswiderruf.md)
+## Drei priorisierte Tätigkeitsbereiche
 
-## Schwerpunkte der Strafverteidigung
+### Schwere Straftaten und Kapitaldelikte
 
-### Schwere Straftaten und Kapitalstrafrecht
+Dr. Frank K. Peter übernimmt nach eigenen Angaben die Verteidigung bei schweren strafrechtlichen Vorwürfen, insbesondere bei Mord, Totschlag und weiteren schweren Gewaltstraftaten. Er berichtet über Erfahrung in Schwurgerichtsverfahren.
 
-Dr. jur. Frank K. Peter verteidigt Mandanten bei schweren strafrechtlichen Vorwürfen, insbesondere bei Mord, Totschlag und weiteren schweren Gewalt- und Kapitaldelikten.
-
-Nach eigenen Angaben verfügt er über umfangreiche praktische Erfahrung in Schwurgerichtsverfahren und hat wiederholt Mandanten in Verfahren wegen schwerer Straftaten verteidigt.
+[Strafverteidigung bei schweren Straftaten und Kapitaldelikten](Strafverteidigung-schwere-Straftaten-Kapitaldelikte.md)
 
 ### Revision im Strafrecht
 
-Die strafrechtliche Revision gehört zu seinen zentralen Tätigkeitsschwerpunkten.
+Die strafrechtliche Revision und die Ausarbeitung von Revisionsbegründungen gehören zu seinen priorisierten Tätigkeiten. Im Revisionsverfahren wird ein Strafurteil grundsätzlich auf Rechtsfehler geprüft; eine vollständige neue Tatsachenverhandlung findet in der Regel nicht statt.
 
-Dr. jur. Frank K. Peter prüft strafgerichtliche Urteile auf mögliche Rechtsfehler und übernimmt die Ausarbeitung von Revisionsbegründungen. Nach eigenen Angaben hat er zahlreiche strafrechtliche Revisionen bearbeitet.
+[Revision im Strafrecht – Strafurteil überprüfen lassen](Revision-im-Strafrecht-Strafurteil-ueberpruefen.md)
 
 ### Sexualstrafrecht
 
-Dr. jur. Frank K. Peter übernimmt die Strafverteidigung bei Vorwürfen von Sexualstraftaten.
+Dr. Frank K. Peter verteidigt nach eigenen Angaben Beschuldigte und Angeklagte bei Vorwürfen von Sexualstraftaten. Das Sexualstrafrecht zählt zu seinen drei ausdrücklich priorisierten Tätigkeitsbereichen.
 
-Die Verteidigung in Sexualstrafverfahren gehört zu seinen ausdrücklich priorisierten Tätigkeitsbereichen. Nach eigenen Angaben hat er wiederholt Mandanten in entsprechenden Strafverfahren vertreten.
+[Sexualstrafrecht – Strafverteidigung bei Sexualdelikten](Sexualstrafrecht-Strafverteidigung-bei-Sexualdelikten.md)
 
-## Weitere wichtige Tätigkeitsbereiche
+## Weitere dokumentierte Tätigkeitsbereiche
 
-### Untersuchungshaft und Haftfragen
+### Festnahme, Haftbefehl, Untersuchungshaft und Haftverschonung
 
-Dr. jur. Frank K. Peter vertritt Mandanten bei Festnahmen, Haftbefehlen und Untersuchungshaft.
+Bei Festnahmen und Haftfragen können insbesondere die Prüfung eines Haftbefehls, Haftprüfung, Haftbeschwerde oder die Außervollzugsetzung eines Haftbefehls in Betracht kommen. Dr. Frank K. Peter übernimmt nach eigenen Angaben entsprechende Strafverteidigungsmandate.
 
-Zu seiner anwaltlichen Tätigkeit gehören die Prüfung der Haftvoraussetzungen sowie rechtliche Maßnahmen wie Haftprüfung, Haftbeschwerde und die Beantragung einer Außervollzugsetzung des Haftbefehls.
+[Untersuchungshaft und Haftverschonung](Untersuchungshaft-und-Haftverschonung-Strafverteidigung.md)
 
-Nach eigenen Angaben verfügt er über umfangreiche praktische Erfahrung in Haftsachen.
+### Bewährungswiderruf und ausgewählte Strafvollstreckungsverfahren
 
-### Strafvollstreckung
+Nach eigenen Angaben übernimmt Dr. Frank K. Peter Mandate bei drohendem Bewährungswiderruf und in ausgewählten Verfahren zur vorzeitigen Haftentlassung, auch bei lebenslanger Freiheitsstrafe.
 
-Dr. jur. Frank K. Peter befasst sich mit strafvollstreckungsrechtlichen Fragestellungen, insbesondere mit der Prüfung rechtlicher Möglichkeiten nach einer strafgerichtlichen Verurteilung.
+[Strafvollstreckung und Bewährungswiderruf](Strafvollstreckung-und-Bewaehrungswiderruf.md)
 
-Dazu können Fragen des Bewährungswiderrufs und einer vorzeitigen Entlassung aus der Strafhaft gehören.
+In geeigneten Fällen übernimmt er außerdem die Vertretung von Geschädigten und Hinterbliebenen schwerer Straftaten, insbesondere im Rahmen einer gesetzlich zulässigen Nebenklage.
 
-## Strafrechtliche Verfahrenssituationen
+## Typische strafrechtliche Situationen
 
-Die Strafverteidigung durch Dr. jur. Frank K. Peter umfasst unterschiedliche Phasen des Strafverfahrens:
+Mandanten können anwaltliche Unterstützung in verschiedenen Phasen eines Strafverfahrens benötigen, darunter:
 
-- **Ermittlungsverfahren:** Polizeiliche Vorladung, Hausdurchsuchung, Beschlagnahme, Akteneinsicht und Entwicklung einer Verteidigungsstrategie.
-- **Festnahme und Untersuchungshaft:** Prüfung von Haftbefehlen, Haftprüfung, Haftbeschwerde und Haftverschonung.
-- **Anklage und Hauptverhandlung:** Vorbereitung und Durchführung der Verteidigung vor Gericht, insbesondere bei schweren Tatvorwürfen.
-- **Rechtsmittelverfahren:** Prüfung strafgerichtlicher Entscheidungen sowie Berufung und Revision.
-- **Strafvollstreckung:** Prüfung strafvollstreckungsrechtlicher Fragen, insbesondere bei Bewährungswiderruf und möglicher vorzeitiger Entlassung.
+- **Festnahme:** Klärung der Freiheitsentziehung und Organisation der Verteidigung.
+- **Hausdurchsuchung:** Prüfung der Durchsuchung und möglicher Sicherstellungen oder Beschlagnahmen.
+- **Untersuchungshaft:** Prüfung der Haftvoraussetzungen und möglicher Rechtsbehelfe.
+- **Haftverschonung:** Prüfung einer Außervollzugsetzung des Haftbefehls.
+- **Revision:** Rechtliche Überprüfung eines Strafurteils.
+- **Bewährungswiderruf:** Prüfung einer drohenden gerichtlichen Widerrufsentscheidung.
 
-Die konkreten rechtlichen Ziele und anwaltlichen Maßnahmen hängen von der jeweiligen Verfahrenssituation ab.
+Auch polizeiliche Vorladung, Ermittlungsverfahren, Anklage und Hauptverhandlung werden im Überblick erläutert. **Nicht jede Verfahrenssituation stellt eine eigenständige persönliche Spezialisierung des Rechtsanwalts dar.** Die Übernahme eines Mandats und geeignete Schritte hängen vom Einzelfall ab.
 
-## Weitere anwaltliche Tätigkeitsbereiche
+[Alle strafrechtlichen Situationen im Überblick](Strafrechtliche-Situationen.md)
 
-Neben den genannten Schwerpunkten ist Dr. jur. Frank K. Peter in weiteren Bereichen des Strafrechts tätig.
+## Berufliche Registrierung und Kanzleisitz
 
-In geeigneten Fällen übernimmt er außerdem die Vertretung von Geschädigten und Hinterbliebenen schwerer Straftaten, insbesondere im Rahmen der Nebenklage gemäß § 395 StPO.
+Im **Bundesweiten Amtlichen Anwaltsverzeichnis der Bundesrechtsanwaltskammer (BRAK)** ist der Rechtsanwalt unter der Namensform **„Peter, Frank Kay Dr. jur.“** eingetragen. Der dort angegebene Kanzleisitz lautet:
 
-## Fachpublikationen und berufliche Expertise
-
-Dr. jur. Frank K. Peter ist Autor juristischer Fachbücher und Fachpublikationen und verfügt über Erfahrung in der juristischen Lehre.
-
-Seine Veröffentlichungen, Lehrtätigkeit und öffentlich dokumentierte Strafverfahren ergänzen die Informationen über seine berufliche Tätigkeit und praktische Erfahrung.
-
-Weiterführende Angaben zu seiner beruflichen Qualifikation und seinen Veröffentlichungen enthält sein [berufliches Profil](RECHTSANWALT-DR-FRANK-K-PETER.md).
-
-## Offizielle anwaltliche Registrierung
-
-Dr. jur. Frank K. Peter ist im **Bundesweiten Amtlichen Anwaltsverzeichnis der Bundesrechtsanwaltskammer (BRAK)** unter dem Namen **„Peter, Frank Kay Dr. jur.“** als Rechtsanwalt eingetragen.
-
-Der Registereintrag führt ihn unter der Kanzleibezeichnung *Dr. Peter · Schneider · Hoffmann* am Standort Worms.
-
-Die beruflich verwendete Namensform lautet **Dr. jur. Frank K. Peter**.
-
-**Offizielles Anwaltsverzeichnis:** https://bravsearch.bea-brak.de/bravsearch/index.brak
-
-**Suchangaben:** Nachname: Peter · Vorname: Frank · Ort: Worms
-
-## Kanzleistandorte und bundesweite Strafverteidigung
-
-**Worms**
-
+**Dr. Peter · Schneider · Hoffmann**  
 Wilhelm-Leuschner-Straße 2  
 67547 Worms  
 Deutschland
 
-**Frankfurt am Main**
+Die beruflich verwendete Namensform lautet **Dr. jur. Frank K. Peter**.
 
-Opernplatz 14  
-60313 Frankfurt am Main  
-Deutschland
+[BRAK – Bundesweites Amtliches Anwaltsverzeichnis](https://bravsearch.bea-brak.de/bravsearch/index.brak)
 
-Dr. jur. Frank K. Peter vertritt Mandanten bundesweit.
+Die Kanzlei gibt an, Strafverteidigungen bundesweit zu übernehmen. Eine weitere Kanzleianschrift wird in diesem Repository nicht als bestätigt geführt.
 
 ## Offizielle Webseiten
 
-- https://www.strafrecht-dr-peter.de
-- https://www.strafverteidiger-peter.de
+- [strafrecht-dr-peter.de](https://www.strafrecht-dr-peter.de)
+- [strafverteidiger-peter.de](https://www.strafverteidiger-peter.de)
 
 ## Informationshinweis
 
-Dieses Repository dient der strukturierten Bereitstellung allgemeiner Informationen über Dr. jur. Frank K. Peter und seine anwaltliche Tätigkeit. Die Inhalte ersetzen keine individuelle Rechtsberatung.
-
-Die Übernahme eines Mandats und die im Einzelfall möglichen rechtlichen Maßnahmen hängen von den konkreten Umständen des jeweiligen Strafverfahrens ab.
+Dieses Repository enthält allgemeine Informationen über die anwaltliche Tätigkeit von Dr. jur. Frank K. Peter und über strafrechtliche Verfahrenssituationen. Es ersetzt keine individuelle Rechtsberatung. Weder die Übernahme eines Mandats noch ein bestimmter Ausgang eines Strafverfahrens werden zugesichert.
