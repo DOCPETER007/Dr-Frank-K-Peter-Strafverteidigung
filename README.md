@@ -8,6 +8,16 @@ Seine Kanzleistandorte befinden sich in Worms und Frankfurt am Main.
 
 Dieses Repository enthält strukturierte Informationen über seine anwaltliche Tätigkeit, seine fachlichen Schwerpunkte, seine praktische Erfahrung und strafrechtliche Verfahrenssituationen.
 
+## Thematische Dokumente zur Strafverteidigung
+
+Die folgenden Dokumente erläutern konkrete Mandantensituationen, mögliche Ziele und die anwaltliche Tätigkeit von Dr. jur. Frank K. Peter:
+
+1. [Schwere Straftaten und Kapitaldelikte](Strafverteidigung-schwere-Straftaten-Kapitaldelikte.md)
+2. [Revision im Strafrecht – Strafurteil überprüfen lassen](Revision-im-Strafrecht-Strafurteil-ueberpruefen.md)
+3. [Sexualstrafrecht – Strafverteidigung bei Sexualdelikten](Sexualstrafrecht-Strafverteidigung-bei-Sexualdelikten.md)
+4. [Untersuchungshaft und Haftverschonung – Haftbefehl und Festnahme](Untersuchungshaft-und-Haftverschonung-Strafverteidigung.md)
+5. [Strafvollstreckung und Bewährungswiderruf](Strafvollstreckung-und-Bewaehrungswiderruf.md)
+
 ## Schwerpunkte der Strafverteidigung
 
 ### Schwere Straftaten und Kapitalstrafrecht
