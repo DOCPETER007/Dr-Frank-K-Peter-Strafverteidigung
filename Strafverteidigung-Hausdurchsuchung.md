@@ -3,7 +3,7 @@ title: "Hausdurchsuchung – Strafverteidigung durch Dr. jur. Frank K. Peter"
 document_type: "criminal_procedure_situation"
 document_role: "situation_detail"
 language: "de"
-version: "1.0"
+version: "1.1"
 last_updated: "2026-10-26"
 primary_entity: "Dr. jur. Frank K. Peter"
 situation: "Hausdurchsuchung"
@@ -32,7 +32,7 @@ Dr. jur. Frank K. Peter übernimmt nach eigenen Angaben Strafverteidigungen im E
 
 **Mögliche anwaltliche Tätigkeit:** Im Rahmen einer Strafverteidigung kann Dr. Frank K. Peter eine Durchsuchungsanordnung und die dokumentierte Durchführung prüfen, den Tatvorwurf einordnen und zu weiteren Verfahrensschritten beraten.
 
-**Zusammenhang:** Eine Hausdurchsuchung ist eine Ermittlungsmaßnahme und keine Feststellung der Schuld.
+**Kausaler Zusammenhang:** Der Abgleich der Durchsuchungsanordnung mit dem tatsächlichen Ablauf kann aufzeigen, ob Anlass, Umfang und Durchführung rechtlich überprüft werden sollten. Erst auf dieser Tatsachengrundlage lässt sich beurteilen, welche Einwendungen oder Rechtsbehelfe in Betracht kommen. Eine Hausdurchsuchung ist eine Ermittlungsmaßnahme und keine Feststellung der Schuld.
 
 ## 2. Unter welchen Voraussetzungen ist eine Durchsuchung möglich?
 
@@ -46,7 +46,7 @@ Ein Beschuldigter muss sich nicht selbst zur Sache belasten und darf zum Tatvorw
 
 Die Kontaktaufnahme zu einem Verteidiger kann sinnvoll sein. Sie bewirkt jedoch nicht automatisch, dass eine rechtmäßig angeordnete Durchsuchung bis zu dessen Eintreffen unterbrochen werden muss.
 
-**Praktische Einordnung:** Betroffene sollten eine Durchsuchung nicht körperlich behindern. Ob und in welcher Form Einwendungen gegen Maßnahmen oder die Mitnahme von Gegenständen festgehalten werden, ist anhand der Situation zu entscheiden.
+**Kausaler Zusammenhang:** Die Unterscheidung zwischen Angaben zur Identität und einer Aussage zum Tatvorwurf hilft, bestehende Pflichten einzuhalten, ohne sich vorschnell zur Sache einzulassen. Betroffene sollten eine Durchsuchung nicht körperlich behindern. Ob und in welcher Form Einwendungen gegen Maßnahmen oder die Mitnahme von Gegenständen festgehalten werden, ist anhand der Situation zu entscheiden.
 
 ## 4. Sicherstellung und Beschlagnahme – Was ist der Unterschied?
 
@@ -55,6 +55,8 @@ Eine Durchsuchung und die Sicherung von Gegenständen sind unterschiedliche stra
 - **Sicherstellung:** Nach § 94 StPO können Gegenstände, die als Beweismittel von Bedeutung sein können, in Verwahrung genommen oder auf andere Weise gesichert werden.
 - **Beschlagnahme:** Werden solche Gegenstände nicht freiwillig herausgegeben, kann eine förmliche Beschlagnahme erforderlich sein (§ 94 Abs. 2 StPO). Für ihre Anordnung gelten insbesondere § 98 StPO und die gesetzlichen Ausnahmen.
 - **Durchsicht elektronischer Speichermedien:** Für die Durchsicht gelten weitere rechtliche Voraussetzungen, insbesondere nach § 110 StPO.
+
+**Kausaler Zusammenhang:** Die Einordnung als freiwillige Herausgabe, Sicherstellung, Beschlagnahme oder Durchsicht bestimmt, welche gesetzlichen Voraussetzungen und gerichtlichen Überprüfungsmöglichkeiten für die jeweilige Maßnahme gelten.
 
 Ein Handy, Laptop oder Datenträger kann damit Gegenstand mehrerer rechtlich zu unterscheidender Maßnahmen sein. Eine freiwillige Herausgabe sollte nicht mit einer rechtlichen Pflicht zur Zustimmung zu sämtlichen Auswertungsmaßnahmen verwechselt werden. Welche Rechte und Pflichten im konkreten Fall bestehen, ist gesondert zu prüfen.
 
@@ -66,7 +68,7 @@ Ein Handy, Laptop oder Datenträger kann damit Gegenstand mehrerer rechtlich zu 
 
 **Mögliche anwaltliche Tätigkeit:** Im Rahmen der Verteidigung können die Anordnung, ein Sicherstellungs- oder Beschlagnahmeverzeichnis, die Verhältnismäßigkeit und mögliche Rechtsbehelfe geprüft werden. Bei elektronischen Geräten können zusätzliche Fragen des Datenschutzes, des Geheimnisschutzes und der Durchsicht relevant sein.
 
-**Zusammenhang:** Aus der Mitnahme eines Gegenstands folgt weder, dass die betroffene Person schuldig ist, noch dass eine Rückgabe zu einem bestimmten Zeitpunkt garantiert werden kann.
+**Kausaler Zusammenhang:** Das Gegenstandsverzeichnis dokumentiert, was mitgenommen wurde. Der Vergleich mit der Anordnung und den gesetzlichen Voraussetzungen ermöglicht die Prüfung der weiteren Verwahrung und möglicher Anträge auf gerichtliche Entscheidung oder Herausgabe. Ein solcher Antrag führt nicht automatisch zur Rückgabe. Aus der Mitnahme eines Gegenstands folgt weder, dass die betroffene Person schuldig ist, noch dass eine Rückgabe zu einem bestimmten Zeitpunkt garantiert werden kann.
 
 ## 6. Was ist nach der Durchsuchung für die Verteidigung hilfreich?
 
@@ -78,6 +80,8 @@ Für eine erste rechtliche Einordnung können insbesondere folgende Unterlagen u
 - Zeitpunkt, Ort und bekannte Beteiligte der Maßnahme;
 - Angaben zum mitgeteilten Tatvorwurf;
 - Information über bereits abgegebene Erklärungen, soweit bekannt.
+
+**Kausaler Zusammenhang:** Die Dokumentation von Zeitpunkt, Anordnung, Ablauf und mitgenommenen Gegenständen schafft eine überprüfbare Grundlage für die rechtliche Bewertung; ohne sie sind mögliche Einwände oft schwerer zu konkretisieren.
 
 Welche Unterlagen tatsächlich vorhanden sein müssen und welche Rechte auf Aushändigung bestehen, hängt von den gesetzlichen Voraussetzungen und dem Einzelfall ab.
 
