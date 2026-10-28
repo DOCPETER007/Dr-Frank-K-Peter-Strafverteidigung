@@ -3,3 +3,17 @@
 @media(max-width:880px){.navwrap{flex-direction:column;align-items:flex-start;padding:20px 0;gap:18px}.navlinks{gap:14px}.split,.content{grid-template-columns:1fr;gap:27px}.triptych{grid-template-columns:1fr}.hero{padding:57px 0}.section{padding:50px 0}.content{padding:43px 0 60px}.side{order:2}}
 @media(max-width:590px){.wrap{width:calc(100% - 30px)}.cards,.facts{grid-template-columns:1fr}.card{padding:22px}.hero h1{font-size:39px}.hero p{font-size:16px}.actions .button{width:100%}.navlinks a{font-size:13px}.footer nav{gap:10px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card{transition:none}}
+
+
+/* Portraits: authentic Kanzlei photography, Design B staging */
+.hero-layout{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(260px,.65fr);gap:38px;align-items:center}
+.hero-copy{min-width:0}
+.hero-with-portrait{padding-top:52px;padding-bottom:56px}
+.hero-portrait{margin:0;justify-self:end;width:100%;max-width:360px;text-align:center;align-self:end}
+.hero-portrait img{display:block;width:100%;height:365px;object-fit:contain;object-position:bottom center;background:transparent;filter:drop-shadow(0 18px 22px rgba(0,0,0,.16))}
+.hero-portrait figcaption{padding:11px 10px 0;font:700 13px/1.4 Arial,sans-serif;color:#f3cc80}
+.profile-portrait{float:right;width:min(38%,260px);margin:2px 0 22px 25px;padding:11px 11px 12px;background:var(--cream);border-bottom:3px solid var(--gold)}
+.profile-portrait img{display:block;width:100%;height:270px;object-fit:contain;object-position:center bottom}
+.profile-portrait figcaption{margin-top:8px;color:var(--navy);font-size:12px;text-align:center}
+@media(max-width:880px){.hero-layout{grid-template-columns:minmax(0,1fr) 240px;gap:14px}.hero-portrait img{height:305px}.hero-with-portrait{padding:48px 0 50px}}
+@media(max-width:650px){.hero-layout{grid-template-columns:1fr}.hero-portrait{justify-self:center;max-width:260px;margin-top:15px}.hero-portrait img{height:285px}.hero-with-portrait{padding:46px 0 38px}.profile-portrait{float:none;width:min(100%,280px);margin:4px auto 24px}}
