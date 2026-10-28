@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
+<meta name="googlebot" content="noindex,nofollow,noarchive">
+<meta name="bingbot" content="noindex,nofollow,noarchive">
+<meta name="description" content="Strafverfahren Navigator: allgemeine Orientierung nach Schreiben, Maßnahmen, Festnahme oder gerichtlicher Entscheidung. Technische Testversion.">
+<meta name="theme-color" content="#10283F">
+<title>Strafverfahren Navigator | Dr. Frank K. Peter – Testversion</title>
+<style>
+:root{--navy:#10283f;--navy2:#183c56;--gold:#d4aa56;--gold-dark:#8b631e;--cream:#f7f6f2;--ink:#243543;--muted:#546474;--line:#d9e0e4}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#fff;color:var(--ink);font:16px/1.65 Arial,Helvetica,sans-serif}
+a{color:inherit}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--gold-dark);outline-offset:4px}
+.wrap{width:min(1120px,calc(100% - 40px));margin:auto}
+.skip{position:absolute;left:-9999px;top:0;padding:12px;background:#fff;color:#10283f;z-index:10}.skip:focus{left:16px}
+.top{background:var(--navy);color:white}
+.top .wrap{min-height:88px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{font:700 20px/1.1 Georgia,serif;text-decoration:none;letter-spacing:.02em}
+.brand small{display:block;font:700 10px/1.5 Arial,sans-serif;color:var(--gold);letter-spacing:.15em;margin-top:7px}
+nav{display:flex;align-items:center;gap:21px;flex-wrap:wrap;font-size:14px}
+nav a{text-decoration:none}nav a:hover{text-decoration:underline}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;padding:12px 21px;border:2px solid var(--gold);border-radius:3px;font-size:14px;line-height:1.25;font-weight:700;background:var(--gold);color:var(--navy)}
+.btn:hover{background:#f0ca7b;border-color:#f0ca7b}
+.btn.ghost{background:transparent;color:white;border-color:#b6c7d2}
+.btn.ghost:hover{background:#ffffff18}
+.hero{background:linear-gradient(120deg,var(--navy),#1b415b);color:#fff;padding:80px 0 87px}
+.eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:var(--gold)}
+.hero h1{font:normal clamp(38px,5.5vw,66px)/1.12 Georgia,serif;max-width:820px;margin:16px 0 24px}
+.hero p{max-width:710px;font-size:18px;color:#e1eaf0;margin:0 0 15px}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.stage{display:inline-block;margin-top:28px;font-size:12px;color:#d2dce4;border-top:1px solid #567085;padding-top:12px}
+section{scroll-margin-top:24px}
+.section{padding:70px 0}
+.alt{background:var(--cream)}
+h2{font:normal clamp(29px,3.4vw,43px)/1.2 Georgia,serif;color:var(--navy);margin:12px 0 16px}
+.lead{max-width:810px;color:var(--muted);font-size:17px;margin-top:0}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:19px;margin-top:28px}
+.card{display:block;background:white;border:1px solid var(--line);padding:29px;text-decoration:none;box-shadow:0 5px 16px #10283f09;transition:transform .2s,border-color .2s}
+.card:hover{transform:translateY(-3px);border-color:var(--gold)}
+.card .num{font-size:12px;font-weight:bold;color:var(--gold-dark);letter-spacing:.1em}
+.card h3{font:normal 26px/1.3 Georgia,serif;color:var(--navy);margin:14px 0 11px}
+.card p{color:var(--muted);margin:0 0 18px}
+.card strong{color:#79551e;font-size:14px}
+.columns{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:28px}
+.column{border-top:3px solid var(--gold);padding:21px 4px 0}
+.column h3{font:normal 24px Georgia,serif;color:var(--navy);margin:5px 0 11px}
+.column p{color:var(--muted);margin:0}
+.detail{border-top:1px solid var(--line)}
+.detail .wrap{display:grid;grid-template-columns:1fr 330px;gap:65px;align-items:start}
+.detail h3{font:normal 24px Georgia,serif;color:var(--navy);margin:25px 0 7px}
+.detail ul{padding-left:22px;margin:10px 0}
+.detail li{margin-bottom:7px}
+.panel{background:var(--navy);color:white;padding:30px}
+.panel h3{font:normal 25px Georgia,serif;color:#fff;margin:0 0 15px}
+.panel p{margin:0 0 15px;color:#d5e1e9}
+.panel a{color:#f0ca7b}
+.chip{display:inline-block;color:var(--gold-dark);font-size:12px;letter-spacing:.11em;text-transform:uppercase;font-weight:700}
+.notice{padding:16px 20px;border-left:4px solid var(--gold);background:#fff9ed;margin-top:23px}
+.split{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+.factors{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:22px 0}
+.factor{border:1px solid var(--line);padding:16px 18px;background:#fff}
+.factor strong{display:block;color:var(--navy);margin-bottom:4px}
+.factor span{display:block;font-size:14px;color:var(--muted)}
+.foot{background:#0b1d2e;color:#cfdbe4;padding:34px 0;font-size:13px}
+.foot .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:25px}
+.foot a{color:white}
+.small{font-size:13px;color:var(--muted)}
+@media(max-width:850px){.top .wrap{padding:18px 0;align-items:flex-start;flex-direction:column}nav{gap:14px}.detail .wrap,.split{grid-template-columns:1fr;gap:26px}.columns{grid-template-columns:1fr}.hero{padding:62px 0}.section{padding:53px 0}}
+@media(max-width:600px){.wrap{width:min(1120px,calc(100% - 30px))}.cards,.factors{grid-template-columns:1fr}.card{padding:23px}.hero h1{font-size:39px}.hero p{font-size:16px}.actions .btn{width:100%}.top .wrap{gap:13px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card{transition:none}}
+</style>
+</head>
+<body>
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+<header class="top">
+<div class="wrap"><a class="brand" href="#start">STRAFVERFAHREN NAVIGATOR<small>DR. FRANK K. PETER · TESTVERSION</small></a>
+<nav aria-label="Hauptnavigation"><a href="#situationen">Situationen</a><a href="#faktoren">Entscheidungsfaktoren</a><a href="#anwaltliche-pruefung">Anwaltliche Prüfung</a><a class="btn" href="#kontakt">Kontakt</a></nav></div>
+</header>
+<main id="inhalt">
+<section class="hero" id="start"><div class="wrap">
+<div class="eyebrow">Orientierung im Strafverfahren</div>
+<h1>Orientierung beginnt mit der richtigen Frage.</h1>
+<p>Wenn plötzlich ein Schreiben eintrifft, eine Maßnahme stattfindet oder ein Mensch festgenommen wird, sind viele Informationen noch unklar.</p>
+<p>Dieser Navigator hilft Ihnen, gesicherte Tatsachen von offenen Fragen zu unterscheiden. Er trifft keine Entscheidung über Ihren Fall und ersetzt keine anwaltliche Beratung.</p>
+<div class="actions"><a href="#situationen" class="btn">Meine Situation auswählen</a><a href="#prinzip" class="btn ghost">So funktioniert die Orientierung</a></div>
+<span class="stage">Technische Testversion · keine individuelle Rechtsberatung · keine Eingabe persönlicher Falldaten</span>
+</div></section>
+<section id="situationen" class="section alt"><div class="wrap">
+<div class="eyebrow">01 / Ausgangspunkt</div><h2>Was ist geschehen?</h2>
+<p class="lead">Beginnen Sie mit dem Ereignis, das Sie tatsächlich beschreiben können. Nicht jede ähnliche Situation hat denselben rechtlichen Hintergrund.</p>
+<div class="cards">
+<a class="card" href="#schreiben"><span class="num">01 · NACHRICHT</span><h3>Ein Schreiben ist eingetroffen</h3><p>Welche Stelle hat geschrieben? Worum wird gebeten? Welche Zeitangaben und Unterlagen stehen im Dokument?</p><strong>Fragen zum Schreiben ansehen →</strong></a>
+<a class="card" href="#massnahme"><span class="num">02 · MASSNAHME</span><h3>Etwas ist bereits geschehen</h3><p>Eine Durchsuchung, Sicherstellung oder andere Maßnahme: Beobachtung und rechtliche Bewertung auseinanderhalten.</p><strong>Das Ereignis ordnen →</strong></a>
+<a class="card" href="#festnahme"><span class="num">03 · FESTNAHME</span><h3>Eine Person wurde festgenommen</h3><p>Welche Angaben sind bestätigt? Was wissen Angehörige wirklich? Welche Fragen sind dringend zu klären?</p><strong>Zur Orientierung bei Festnahme →</strong></a>
+<a class="card" href="#entscheidung"><span class="num">04 · ENTSCHEIDUNG</span><h3>Eine gerichtliche Entscheidung liegt vor</h3><p>Dokument, Bekanntgabe und mögliche Fristfragen sauber voneinander unterscheiden.</p><strong>Prüffragen zur Entscheidung →</strong></a>
+</div></div></section>
+<section class="section" id="prinzip"><div class="wrap">
+<div class="eyebrow">02 / Orientierung statt Spekulation</div><h2>Drei unterschiedliche Ebenen</h2>
+<div class="columns">
+<div class="column"><span class="chip">Beobachtbar</span><h3>Was steht fest?</h3><p>Vorliegende Dokumente, unmittelbare Beobachtungen und bestätigte Mitteilungen.</p></div>
+<div class="column"><span class="chip">Noch offen</span><h3>Was wird vermutet?</h3><p>Annahmen über Gründe, Absichten oder den nächsten Verfahrensschritt sind nicht dasselbe wie gesicherte Fakten.</p></div>
+<div class="column"><span class="chip">Individuell</span><h3>Was muss geprüft werden?</h3><p>Ob und welche rechtlichen Folgen entstehen, hängt von den konkreten Umständen und gegebenenfalls den Akten ab.</p></div>
+</div></div></section>
+<section class="section alt detail" id="schreiben"><div class="wrap">
+<div><span class="chip">Situation 01</span><h2>Ein Schreiben liegt vor</h2>
+<p>Ein amtlich aussehender Brief allein verrät noch nicht zuverlässig, welche Verfahrensrolle oder Handlungsoption besteht. Entscheidend ist, was tatsächlich darin steht.</p>
+<h3>Welche Angaben lassen sich feststellen?</h3><ul><li>Absender und Bezeichnung der Stelle</li><li>Datum, Bezug oder Aktenzeichen</li><li>Wortlaut einer Aufforderung, eines Termins oder einer Frist</li><li>Adressat und genannte Rolle im Verfahren</li><li>Anlagen, Zustellvermerk und Umschlag, soweit vorhanden</li></ul>
+<h3>Was bleibt offen?</h3><p>Warum das Schreiben versandt wurde, welche Rechte oder Pflichten im Einzelfall bestehen und wie mit Fristen umzugehen ist, lässt sich erst nach Prüfung beurteilen.</p>
+<div class="notice">Bewahren Sie das vollständige Schreiben auf. Unklare Termine oder Fristen sollten zeitnah individuell geprüft werden.</div>
+</div><aside class="panel"><h3>Wichtige Unterscheidung</h3><p>Die Bezeichnung eines Dokuments, seine tatsächliche Funktion und die eigene Rolle im Verfahren dürfen nicht ohne Prüfung gleichgesetzt werden.</p><a href="#faktoren">Zu den Entscheidungsfaktoren →</a></aside>
+</div></section>
+<section class="section detail" id="massnahme"><div class="wrap">
+<div><span class="chip">Situation 02</span><h2>Eine Maßnahme hat stattgefunden</h2>
+<p>Nach einer behördlichen Maßnahme ist es hilfreich, die eigene Wahrnehmung von späteren Erklärungen anderer Personen zu trennen.</p>
+<h3>Welche Fragen helfen beim Sortieren?</h3><ul><li>Wann und an welchem Ort fand das Ereignis statt?</li><li>Welche Behörde oder welche Personen waren beteiligt?</li><li>Welche Unterlagen wurden gezeigt oder ausgehändigt?</li><li>Was wurde tatsächlich mitgenommen oder dokumentiert?</li><li>Welche wesentlichen Umstände sind bislang nicht geklärt?</li></ul>
+<h3>Was kann daraus nicht gefolgert werden?</h3><p>Aus dem bloßen Ablauf lässt sich nicht abschließend beurteilen, auf welcher Grundlage eine Maßnahme beruht oder wie sie rechtlich einzuordnen ist.</p>
+<div class="notice">Dieser Abschnitt hilft bei der Vorbereitung von Fragen; er ersetzt nicht die Prüfung konkreter Unterlagen.</div>
+</div><aside class="panel"><h3>Dokumentation ist keine Bewertung</h3><p>Ein möglichst genauer Bericht über das Geschehen beantwortet noch nicht die Frage nach seiner rechtlichen Bedeutung.</p><a href="#anwaltliche-pruefung">Grenzen allgemeiner Orientierung →</a></aside>
+</div></section>
+<section class="section alt detail" id="festnahme"><div class="wrap">
+<div><span class="chip">Situation 03</span><h2>Jemand wurde festgenommen</h2>
+<p>Gerade Angehörige erhalten Informationen häufig nur stückweise. Nicht jede Mitteilung hat denselben Grad an Verlässlichkeit.</p>
+<h3>Welche Informationen sind bestätigt?</h3><ul><li>Wo soll sich die betroffene Person aktuell befinden?</li><li>Wann fand der letzte bestätigte Kontakt statt?</li><li>Von welcher Stelle stammt die jeweilige Auskunft?</li><li>Gibt es Dokumente oder offizielle Mitteilungen?</li><li>Welche Fragen müssen unmittelbar mit anwaltlicher Unterstützung geklärt werden?</li></ul>
+<h3>Was ist nicht sicher bekannt?</h3><p>Grund, Dauer und rechtliche Einordnung einer Freiheitsentziehung dürfen nicht aus Gerüchten oder Vermutungen abgeleitet werden.</p>
+<div class="notice">Bei einer aktuellen Festnahme sollte unverzüglich individuelle anwaltliche Unterstützung gesucht werden.</div>
+</div><aside class="panel"><h3>Bei hoher Dringlichkeit</h3><p>Diese Website führt keine Fallprüfung durch und vermittelt keinen automatischen Notdienst. Kontaktieren Sie eine anwaltliche Ansprechperson unmittelbar.</p><a href="#kontakt">Zur Kanzlei →</a></aside>
+</div></section>
+<section class="section detail" id="entscheidung"><div class="wrap">
+<div><span class="chip">Situation 04</span><h2>Eine Entscheidung liegt vor</h2>
+<p>Die Bezeichnung einer gerichtlichen Entscheidung ist ein Anfangspunkt, aber nicht allein entscheidend für mögliche nächste Schritte.</p>
+<h3>Was sollte geklärt werden?</h3><ul><li>Wie ist die Entscheidung genau bezeichnet?</li><li>Wer hat sie erlassen?</li><li>Wann und wie wurde sie bekanntgegeben oder zugestellt?</li><li>Liegen alle Seiten und Anlagen vor?</li><li>Welche Fragen zu Rechtsmitteln und Fristen müssen unverzüglich geprüft werden?</li></ul>
+<h3>Was lässt sich nicht allgemein vorhersagen?</h3><p>Ob ein Rechtsmittel statthaft ist und welche Anforderungen gelten, hängt von der jeweiligen Entscheidung und dem Verfahrensstand ab.</p>
+<div class="notice">Fristfragen sind besonders zeitkritisch. Der Navigator nennt bewusst keine allgemeingültige Frist.</div>
+</div><aside class="panel"><h3>Keine automatische Prognose</h3><p>Der Navigator berechnet weder Erfolgsaussichten noch eine Risikostufe. Eine Entscheidung über das weitere Vorgehen erfordert Einzelfallprüfung.</p><a href="#anwaltliche-pruefung">Mehr zur anwaltlichen Prüfung →</a></aside>
+</div></section>
+<section class="section alt" id="faktoren"><div class="wrap split">
+<div><div class="eyebrow">03 / Querschnitt</div><h2>Welche Einzelheiten verändern die Fragestellung?</h2>
+<p>Die erste Beschreibung eines Ereignisses ist häufig zu grob. Für eine präzise Einordnung können verschiedene Details wichtig werden.</p>
+<div class="factors">
+<div class="factor"><strong>Dokument</strong><span>Original, Auszug, Mitteilung oder nur mündliche Schilderung?</span></div>
+<div class="factor"><strong>Rolle</strong><span>In welcher Eigenschaft wird jemand angesprochen?</span></div>
+<div class="factor"><strong>Zeitpunkt</strong><span>Wann erfolgten Ereignis und Bekanntgabe?</span></div>
+<div class="factor"><strong>Kenntnisstand</strong><span>Was ist belegt, offen oder noch zu verifizieren?</span></div>
+</div>
+</div><div class="panel"><h3>Vier Fragen, kein Urteil</h3><p>Was ist bekannt?</p><p>Was ist unklar?</p><p>Welche Unterlagen existieren?</p><p>Wo ist eine individuelle rechtliche Prüfung notwendig?</p></div>
+</div></section>
+<section class="section" id="anwaltliche-pruefung"><div class="wrap split">
+<div><div class="eyebrow">04 / Nächster Schritt</div><h2>Wo allgemeine Information endet</h2>
+<p>Ein Informationsangebot kann helfen, eine Situation verständlich zu beschreiben und wichtige Fragen für ein Gespräch zusammenzustellen.</p>
+<p>Eine seriöse Beurteilung des konkreten Strafverfahrens setzt dagegen die tatsächlichen Umstände, die verfügbaren Unterlagen und gegebenenfalls Akteneinsicht voraus.</p>
+<p class="small">Diese Website erfasst keine Fallangaben und gibt keine individualisierte Rechtsauskunft. Es werden keine automatischen Empfehlungen zum Aussageverhalten oder zu Rechtsmitteln abgegeben.</p>
+</div><div class="panel" id="kontakt"><h3>Dr. jur. Frank K. Peter</h3><p>Rechtsanwalt und Fachanwalt für Strafrecht · Worms</p><p>Bei Fragen zu einem konkreten Verfahren wenden Sie sich direkt an die Kanzlei.</p>
+<p><a href="https://www.strafrecht-dr-peter.de/" rel="noopener noreferrer">Zur bestehenden Kanzlei-Website →</a></p>
+<p style="font-size:12px">Kontaktdaten und berufsrechtliche Pflichtangaben müssen vor Freigabe des neuen Angebots abschließend geprüft werden.</p>
+</div></div></section>
+</main>
+<footer class="foot"><div class="wrap"><div>© 2026 Strafverfahren Navigator · Technische Testversion<br>Allgemeine Information, keine individuelle Rechtsberatung</div><div>Impressum und Datenschutz des neuen Angebots: vor öffentlicher Freigabe zu ergänzen.<br><a href="https://www.strafrecht-dr-peter.de/" rel="noopener noreferrer">Bestehende Kanzlei-Website</a></div></div></footer>
+</body></html>
