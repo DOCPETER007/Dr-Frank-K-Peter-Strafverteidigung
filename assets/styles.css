@@ -17,3 +17,73 @@
 .profile-portrait figcaption{margin-top:8px;color:var(--navy);font-size:12px;text-align:center}
 @media(max-width:880px){.hero-layout{grid-template-columns:minmax(0,1fr) 240px;gap:14px}.hero-portrait img{height:305px}.hero-with-portrait{padding:48px 0 50px}}
 @media(max-width:650px){.hero-layout{grid-template-columns:1fr}.hero-portrait{justify-self:center;max-width:260px;margin-top:15px}.hero-portrait img{height:285px}.hero-with-portrait{padding:46px 0 38px}.profile-portrait{float:none;width:min(100%,280px);margin:4px auto 24px}}
+
+
+/* Mobile hero portrait — right-side composition, undistorted top crop */
+@media(max-width:650px){
+  .hero-with-portrait{padding:38px 0 34px;overflow:hidden}
+  .hero-with-portrait .hero-layout{
+    display:grid;
+    grid-template-columns:minmax(0,1fr) minmax(110px,38%);
+    column-gap:13px;
+    row-gap:0;
+    align-items:start;
+  }
+  .hero-with-portrait .hero-copy{display:contents}
+  .hero-with-portrait .hero-copy>.eyebrow{
+    grid-column:1/-1;grid-row:1;
+    margin:0 0 12px;
+  }
+  .hero-with-portrait .hero-copy>h1{
+    grid-column:1/-1;grid-row:2;
+    font-size:clamp(32px,8.7vw,38px);
+    line-height:1.14;
+    max-width:19ch;
+    margin:0 0 20px;
+  }
+  .hero-with-portrait .hero-copy>p{
+    grid-column:1;grid-row:3;
+    font-size:clamp(13px,3.55vw,15px);
+    line-height:1.55;
+    margin:0;
+    max-width:none;
+  }
+  .hero-with-portrait .hero-portrait{
+    grid-column:2;grid-row:3;
+    justify-self:end;
+    align-self:start;
+    width:100%;
+    max-width:175px;
+    margin:0;
+    overflow:hidden;
+    border-radius:2px;
+  }
+  .hero-with-portrait .hero-portrait img{
+    display:block;
+    width:100%;
+    height:auto;
+    aspect-ratio:1/1;
+    object-fit:cover;
+    object-position:50% 0%;
+    filter:none;
+    background:transparent;
+  }
+  .hero-with-portrait .hero-portrait figcaption{display:none}
+  .hero-with-portrait .hero-copy>.actions{
+    grid-column:1/-1;grid-row:4;
+    display:grid;
+    grid-template-columns:1fr;
+    margin:22px 0 0;
+    gap:10px;
+  }
+  .hero-with-portrait .hero-copy>.actions .button{
+    width:100%;
+    min-height:44px;
+    padding:10px 12px;
+    font-size:13px;
+  }
+  .hero-with-portrait .hero-copy>.demo{
+    grid-column:1/-1;grid-row:5;
+    margin:17px 0 0;
+  }
+}
